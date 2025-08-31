@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "deploy-app": "rm -rf ../live-app && yarn build && mv dist ../live-app"
+    "deploy-app": "rm -rf ../docs && yarn build && mv dist ../docs"
   },
   "dependencies": {
     "react": "^19.1.1",
